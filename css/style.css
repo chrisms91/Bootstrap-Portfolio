@@ -1,0 +1,228 @@
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url("../image/gray_jean.png");
+	background-position: repeat;
+	min-height: 100%;
+	line-height: 1.5;
+	margin: 0 0 125px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.img-profile {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	width: auto;
+	height: 280px;
+}
+
+.navbar-default{
+	border-bottom: solid 3px #ccc;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-size: 36px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	line-height: 1;
+	height: auto;
+	padding: 35px 35px;
+	background-color: #4aaaa5;
+	transition: all 0.5s ease;
+}
+.navbar-default .navbar-brand:hover {
+	color: #4aaaa5;
+	background-color: #ccc;
+}
+
+.main-section,
+.aside-section {
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.main-content, .aside-content {
+	padding: 40px 30px;
+	border: solid 1px #ddd;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #4aaaa5;
+}
+.navbar-collapse {
+	background: #fff;
+}
+
+.site-footer {
+	color: #ccc;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 40px;
+	border-top: solid 8px #4aaaa5;
+	background-color: #666;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+}
+.footer-content {
+	padding-top: 40px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #4aaaa5;
+	line-height: 1;
+	font-weight: bold;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+a {
+	color: #4aaaa5;
+}
+a:hover,
+a:focus {
+	color: #000;
+}
+a:active {
+	color: #4aaaa5;
+}
+
+
+
+.aside-icon li a {
+	display: block;
+	transition: all 0.5s ease;
+}
+.aside-icon li a:hover {
+	opacity: .60;
+}
+
+
+.main-header {
+	margin: 10px 0 20px;
+	border-bottom: solid 3px #ededed;
+}
+.main-header h2 {
+	margin-top: 0;
+}
+.aside-header {
+	padding-bottom: 5px;
+	margin: 10px 0 20px;
+	border-bottom: solid 3px #ededed;
+}
+
+.aside-icon img{
+	height: 50px;
+	width: auto;
+}
+
+.btn-default {
+	color: #fff;
+	background-color: #4aaaa5;
+	border-color: transparent;
+}
+
+.img-profile {
+	margin-right: 25px;
+}
+
+
+.portfolio-item {
+	position: relative;
+	margin-bottom: 20px;
+	border-width: 1px;
+	border-color: #ddd;
+	border-style: solid;
+	overflow: hidden;
+}
+.portfolio-item:hover {
+	border-color: #4aaaa5;
+}
+.portfolio-item .portfolio-title {
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+	padding: 10px;
+	background: #4aaaa5;
+}
+.portfolio-item:hover .portfolio-title {
+	color: #000;
+}
+.portfolio-item img {
+	transition: all 0.5s ease;
+}
+.portfolio-item:hover img {
+	transform: scale( 1.1 );
+}
+
+
+
+@media ( max-width: 767px ) {
+	.navbar-default {
+		background-color:#4aaaa5;
+	}
+	.navbar-default .navbar-brand {
+		padding: 25px 15px;
+	}
+	.navbar-toggle {
+		padding: 10px 10px;
+		margin-top: 25px;
+		background-color: #fff;
+	}
+}
+
+@media ( min-width: 768px ) {
+	.navbar-nav {
+		margin-top: 45px;
+	}
+	.navbar-nav > li {
+		padding-right: 20px;
+		padding-left: 20px;
+		border-right: solid 1px #ddd;
+	}
+	.navbar-nav li:last-child {
+		border-right: none;
+	}
+	.navbar-default .navbar-nav > li > a {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+@media ( max-width: 767px ) {
+	.img-profile {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-bottom: 15px;
+	}
+}
+
